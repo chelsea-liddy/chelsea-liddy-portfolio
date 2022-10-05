@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chelsea-liddy-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/chelsea-liddy-portfolio/static/js/main.1bfe830b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/chelsea-liddy-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/chelsea-liddy-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chelsea-liddy-portfolio/index.html",
+    "main.073c9b0a.css.map": "/chelsea-liddy-portfolio/static/css/main.073c9b0a.css.map",
+    "main.1bfe830b.js.map": "/chelsea-liddy-portfolio/static/js/main.1bfe830b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/chelsea-liddy-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1bfe830b.js"
+  ]
+}
