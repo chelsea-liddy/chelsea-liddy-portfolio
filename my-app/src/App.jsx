@@ -1,4 +1,3 @@
-import CV from './CV'
 import Projects from './Projects'
 import Contact from './Contact'
 import { HashLink as Link } from 'react-router-hash-link'
@@ -19,9 +18,13 @@ function App() {
             <p className="py-6">
               I'm Chelsea Liddy, a web developer based in Ōtautahi Christchurch.
             </p>
-            <Link to="#cv">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1WKWoVw8o8hL8rKGB8s7yTt259y2uqXfW/view?usp=sharing"
+            >
               <button className="btn btn-primary m-2">CV</button>
-            </Link>
+            </a>
             <Link to="#projects">
               <button className="btn btn-secondary m-2">Projects</button>
             </Link>
@@ -31,10 +34,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      <section id="cv">
-        <CV />
-      </section>
       <section id="projects">
         <Projects />
       </section>
