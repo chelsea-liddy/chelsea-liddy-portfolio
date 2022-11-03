@@ -16,12 +16,15 @@ function App() {
           <div>
             <h1 className="text-5xl font-bold">Kia ora!</h1>
             <p className="py-6">
-              I'm Chelsea Liddy, a web developer based in Ōtautahi Christchurch.
+              I'm Chelsea Liddy, a developer based in Ōtautahi Christchurch.
+              After more than five years in the heritage sector as an Archivist,
+              I attended Dev Academy Aotearoa and graduated with a keen interest
+              in web design and development.
             </p>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1WKWoVw8o8hL8rKGB8s7yTt259y2uqXfW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tO91G6YqWtn2ORtQuj3WirtISpcc0341/view?usp=sharing"
             >
               <button className="btn btn-primary m-2">CV</button>
             </a>

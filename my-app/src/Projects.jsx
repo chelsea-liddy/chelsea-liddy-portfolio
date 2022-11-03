@@ -3,7 +3,9 @@ import MeMade from './images/memadelogo.JPG'
 function Projects() {
   return (
     <>
-      <div className="bg-base-200">Projects</div>
+      <h1 className="bg-base-200 text-5xl font-bold p-5 m-auto text-center">
+        Projects
+      </h1>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <div className="card lg:card-side bg-base-100 shadow-xl">
@@ -48,10 +50,10 @@ function Projects() {
       </div>
       <div className="flex justify-center w-full py-2 gap-2">
         <a href="#slide1" className="btn btn-xs">
-          Prev
+          1
         </a>
         <a href="#slide2" className="btn btn-xs">
-          Next
+          2
         </a>
       </div>
     </>
