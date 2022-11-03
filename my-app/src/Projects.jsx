@@ -1,4 +1,5 @@
 import MeMade from './images/memadelogo.JPG'
+import LostAndFound from './images/lostandfound.PNG'
 
 function Projects() {
   return (
@@ -15,14 +16,16 @@ function Projects() {
             <div className="card-body">
               <h2 className="card-title">Me Made</h2>
               <p>
-                Keep track of all your creative projects! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste laudantium quibusdam
-                vero officiis alias, minus accusamus eius repellendus a
-                excepturi. Ipsa harum tenetur inventore qui delectus velit hic
-                asperiores quae?
+                MeMade will be an easy way for me to keep track of my different
+                creative projects on the go at any one time! Projects can be
+                edited and updates can be stored against each project. Future
+                plans are for the app to show fabric and yarn available in the
+                'Stash'.
               </p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Demo</button>
+                <a href="https://youtu.be/Hm5PQGYp1jQ">
+                  <button className="btn btn-primary">Demo</button>
+                </a>
               </div>
             </div>
           </div>
@@ -31,18 +34,22 @@ function Projects() {
         <div id="slide2" className="carousel-item relative w-full">
           <div className="card lg:card-side bg-base-100 shadow-xl">
             <figure>
-              <img src={MeMade} alt="Lost and Found" />
+              <img src={LostAndFound} alt="Lost and Found" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Lost and Found</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam,
-                veniam, obcaecati veritatis nostrum doloribus facilis enim sit
-                neque voluptatibus reiciendis temporibus nemo. Saepe sint
-                repudiandae vitae, doloremque omnis odio harum.
+                Lost and Found is an application designed to help New
+                Zealander's reunite with their lost possessions. Users can sign
+                up to post about items they have either lost and found and
+                connect with others in the post comments. Future plans for the
+                app include a messaging feature. This app was created as a final
+                group project for the Dev Academy bootcamp.
               </p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Demo</button>
+                <a href="https://youtu.be/oj0Fla9WJts">
+                  <button className="btn btn-primary">Demo</button>
+                </a>
               </div>
             </div>
           </div>
